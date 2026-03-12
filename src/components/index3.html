@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Company logo - product</title>
+  </head>
+  <body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
+
+<!--
+    https://example.com/
+
+    для гугла url - спосіб для індиксації сторінки, та сигнал для розуміння структури сайту.
+    погані url -> дублікати, або неправильна урла
+    хороші url -> краща індексація, кращий user experience(більш дружні до користувача урли та інтерфейси)
+-----------------------------------------
+поганий приклад url:
+https://example.com/products?id=12345&ref=homepage
+https://example.com/index.php?page=products&category=electronics
+https://example.com/products/12345?sessionid=abcdef
+------------------------------------------------
+
+зороший приклад url:
+https://example.com/products/electronics/smartphone-model-x
+https://example.com/blog/how-to-improve-seo
+https://example.com/services/web-development
+---------------------------------------------------------------
+дублікати url:
+https://example.com/
+https://ww.example.com/
+https"//example.com
+-гірнше сео
+-поганий user experience
+-гугл може плутатися
+-погана індексація
+---------------------------------------------
+
+<link rel="cannonial" href="url" /> - допомагає уникнути 
+дублювання контенту, Також вказує гуглу яка сторінка є основною
+-----------------------------------------------------------------------------
+також для сортування фільтраціє погінація
+https://example.com/products
+https://example.com/products?page=2
+https://example.com/products?sort=price_asc
+------------------------------------------------------------
+ПРИКЛАД JS КОДУ !!!!!!!!!!!!!
+-->
+<script>
+<!--ОТРИМУЄМО ПОЧАТКОВВУ URL СТОРІНКИ (ВСЕ ЩО ДО ЗНАКУ ?)-->
+const url = new URL(window.location.href);
+const seoParams = ['Page', 'Sort', 'Filter', 'category', "color", 'size']
+//створи новий обєкт для параметрів лишаючи тільки дозволенні 
+const cleanParams = new URLSearchParams();
+seoParams.forEach(key => {
+  if (url.searchParams.has(key)) {
+    // getall() -> реалізувати фільтри якшо в нас такі url .php?id...
+    url.searchParams.getAll(key).forEach(value => {
+      cleanParams.append(key, value);
+    });
+  }   
+});
+const queryString = cleanParams.toString();
+const cannonialUrl = `${url.origin}${url.pathname}${queryString ? '?' + queryString : ''}`;
+
+</script>
