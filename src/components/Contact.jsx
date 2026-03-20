@@ -14,7 +14,7 @@ const Contact = () => {
           type="text"
           placeholder={t("contact.name")}
           disabled
-          className="p-4 rounded-xl transform transition duration-300 hover:scale-105 bg-white/10 border border-white/20 outline-none focus:border-green-500"
+          className="p-6 w-full rounded-xl transform transition duration-300 hover:scale-105 bg-white/10 border border-white/20 outline-none focus:border-green-500"
         />
 
         <textarea
