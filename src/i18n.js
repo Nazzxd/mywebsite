@@ -8,7 +8,7 @@ i18n.use(initReactI18next).init({
         nav: { home: "Home", contact: "Contact" },
         header: { title: "Our range of cakes", subtitle: "Here you will find the most delicious cakes!" },
         pricing: { title: "Vanilla / Vanilla-Choco / Chocolate: €3.50 / €2Apple cake: €5 / €3", card_title: "Cakes", btn: "Really tasty" },
-        contact: { title: "Contact Us", name: "Name", message: "Message" }
+        contact: { title: "Contact Us", name: "s.looijen@leerpark-arnhem.nl", message: "Write to us by email at s.looijen@leerpark-arnhem.nl to let us know which cake you have chosen and indicate whether you would like a whole cake or a half." }
       }
     },
     ua: {
