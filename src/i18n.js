@@ -16,7 +16,7 @@ i18n.use(initReactI18next).init({
         nav: { home: "Thuis", contact: "Contact" },
         header: { title: "Ons assortiment taarten ", subtitle: "Hier vind je de  allerlekkerste taarten!" },
         pricing: { title: "  (vanille / vanill-choco / chocolade): €3,50 / €2 Apple cake: €5 / €3", card_title: "taarten", btn: "Echt lekker " },
-        contact: { title: "Contact met onz ", name: "Email   s.looijen@leerpark-arnhem.nl", message: "Schrijf ons per e-mail welke taart je hebt gekozen en geef aan of je een hele taart of een halve wilt." }
+        contact: { title: "Contact met onz ", name: "s.looijen@leerpark-arnhem.nl", message: "Schrijf ons per e-mail welke taart je hebt gekozen en geef aan of je een hele taart of een halve wilt." }
       }
     }
   },
