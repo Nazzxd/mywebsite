@@ -6,17 +6,17 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         nav: { home: "Home", contact: "Contact" },
-        header: { title: "Travel Time", subtitle: "Adventure awaits you!" },
-        pricing: { title: "Popular Destinations", card_title: "Mountain", btn: "Details" },
-        contact: { title: "Contact Us", name: "Name", message: "Message", send: "Send" }
+        header: { title: "Our range of cakes", subtitle: "Here you will find the most delicious cakes!" },
+        pricing: { title: "Vanilla / Vanilla-Choco / Chocolate: €3.50 / €2Apple cake: €5 / €3", card_title: "Cakes", btn: "Really tasty" },
+        contact: { title: "Contact Us", name: "Name", message: "Message" }
       }
     },
     ua: {
       translation: {
-        nav: { home: "Головна", contact: "Контакти" },
-        header: { title: "Час Подорожей", subtitle: "Твоя пригода починається тут!" },
-        pricing: { title: "Популярні напрямки", card_title: "Гори", btn: "Детальніше" },
-        contact: { title: "Зв'язатися з нами", name: "Ім'я", message: "Повідомлення", send: "Надіслати" }
+        nav: { home: "Thuis", contact: "Contact" },
+        header: { title: "Ons assortiment taarten ", subtitle: "Hier vind je de  allerlekkerste taarten!" },
+        pricing: { title: "  (vanille / vanill-choco / chocolade): €3,50 / €2 Apple cake: €5 / €3", card_title: "taarten", btn: "Echt lekker " },
+        contact: { title: "Contact met onz ", name: "Email   s.looijen@leerpark-arnhem.nl", message: "Schrijf ons per e-mail welke taart je hebt gekozen en geef aan of je een hele taart of een halve wilt." }
       }
     }
   },

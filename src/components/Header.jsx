@@ -19,7 +19,7 @@ const Header = () => {
           onClick={() => i18n.changeLanguage("ua")} 
           className="bg-white/20 hover:bg-white hover:text-black px-4 py-2 rounded-lg backdrop-blur-md border border-white/30 transition-all font-bold cursor-pointer"
         >
-          UA
+          NL
         </button>
       </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
         <h2 className="text-xl md:text-2xl opacity-90 drop-shadow-md">{t("header.subtitle")}</h2>
       </div>
 
-      <img src="/img/photo1.jpg" className="absolute inset-0 w-full h-full object-cover brightness-50" alt="Travel" />
+      <img src="/img/Leerpark2.webp" className="absolute inset-0 w-full h-full object-cover brightness-50" alt="Travel" />
     </header>
   );
 };

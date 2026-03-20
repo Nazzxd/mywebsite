@@ -6,9 +6,9 @@ const Pricing = () => {
 
   
   const images = [
-    "/img/photo11.webp",
-    "/img/photo22.webp",
-    "/img/photo33.webp",
+    "/img/cake1.jpg",
+    "/img/cake2.jpg",
+    "/img/cake4.webp",
   ];
 
   return (
